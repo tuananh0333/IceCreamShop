@@ -43,6 +43,10 @@ public class PickFlavorViewController: UIViewController {
 
     loadFlavors()
   }
+  
+  func reload(){
+    
+  }
 
   fileprivate func loadFlavors() {
     showLoadingHUD()
